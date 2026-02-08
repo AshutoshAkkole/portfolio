@@ -6,7 +6,7 @@ const skillsData = [
   { name: "Next.js", icon: "/skills/nextjs.svg" },
   { name: "Node.js", icon: "/skills/nodejs.svg" },
   { name: "HTML", icon: "/skills/html.svg" },
-  { name: "Cypress", icon: "/skills/cypress.svg" },
+  { name: "Playwright", icon: "/skills/playwright.svg" },
   { name: "Gherkin", icon: "/skills/gherkin.svg" },
   { name: "StoryBook", icon: "/skills/storybook.svg" },
   { name: "Jest/Vitest", icon: "/skills/jest.svg" },
@@ -17,7 +17,7 @@ const skillsData = [
 
 function SkillCard({ name, icon }: { name: string; icon: string }) {
   return (
-    <div className="flex items-center gap-2 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+    <div className="flex items-center gap-2 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg hover:scale-105 transition-transform">
       <Image src={icon} alt={name} width={24} height={24} />
       <span className="text-gray-900 dark:text-gray-100">{name}</span>
     </div>
@@ -26,7 +26,7 @@ function SkillCard({ name, icon }: { name: string; icon: string }) {
 
 export default function Skills() {
   return (
-    <div id="skills" className="pb-16 px-4 bg-white dark:bg-gray-600">
+    <div id="skills" className="pb-16 px-4 bg-white dark:bg-gray-600 scroll-smooth">
       <div className="max-w-4xl mx-auto">
         <section className="py-16 px-4">
           <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">

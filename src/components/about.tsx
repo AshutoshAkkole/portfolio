@@ -48,9 +48,12 @@ export default function About() {
           </Link>
         </div>
         <div className="flex space-x-4 items-center">
-          <Link href="https://www.linkedin.com/in/ashutosh-akkole-864143235/" target="_blank">
+          <Link
+            href="https://www.linkedin.com/in/ashutosh-akkole-864143235/"
+            target="_blank"
+          >
             <Image
-              className="dark:invert"
+              className="dark:invert hover:scale-150 transition-transform duration-300"
               src="/linkedin.svg"
               alt="LinkedIn Icon"
               width={24}
@@ -59,24 +62,29 @@ export default function About() {
           </Link>
           <Link href="https://github.com/ashutosh-akkole" target="_blank">
             <Image
-              className="dark:invert"
+              className="dark:invert hover:scale-150 transition-transform duration-300"
               src="/github.svg"
               alt="GitHub Icon"
               width={24}
               height={24}
             />
           </Link>
-         <Link href="https://www.x.com/ashutosh_akkole" target="_blank">
+          <Link href="https://www.x.com/ashutosh_akkole" target="_blank">
             <Image
-              className="dark:invert"
+              className="dark:invert hover:scale-150 transition-transform duration-300"
               src="/x.svg"
               alt="x Icon"
               width={24}
               height={24}
             />
           </Link>
-          <Link href="https://drive.google.com/file/d/1-DlcRKVQVDF4hOSAV7Xl-xCYrDwbJn7I" target="_blank">
-            <h4 className="border-4 p-2 text-gray-700 hover:text-black dark:text-white dark:hover:text-gray-300 transition-colors my-auto">View Resume</h4>
+          <Link
+            href="https://drive.google.com/file/d/1-DlcRKVQVDF4hOSAV7Xl-xCYrDwbJn7I"
+            target="_blank"
+          >
+            <h4 className="border-4 p-2 text-gray-700 hover:text-black hover:scale-110 transition-transform duration-300 dark:text-white dark:hover:text-gray-300 my-auto">
+              View Resume
+            </h4>
           </Link>
         </div>
       </div>
