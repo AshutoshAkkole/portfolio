@@ -1,7 +1,17 @@
+import About from "@/src/components/about";
+import Education from "@/src/components/education";
+import Experience from "@/src/components/experience";
+import Skills from "@/src/components/skills";
+import SpaceContainer from "@/src/components/spacecontainer";
+
 export default function Portfolio() {
   return (
-    <div>
-        <h1 className="text-center">This is the Resume page</h1>
-    </div>
+    <main className="bg-white dark:bg-gray-900 w-full h-screen">
+        <About />
+        <Experience />
+        <Skills />
+        <Education />
+      
+    </main>
   );
 }

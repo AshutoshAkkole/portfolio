@@ -50,10 +50,10 @@ export default function NavBar({
               About
             </Link>
             <Link
-              href="#expericence"
+              href="#experience"
               className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors"
             >
-              expericence
+              Experience
             </Link>
             <Link
               href="#skills"
@@ -105,11 +105,11 @@ export default function NavBar({
                   About
                 </Link>
                 <Link
-                  href="#expericence"
+                  href="#experience"
                   className="block px-4 py-2 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
                   onClick={toggleMenu}
                 >
-                  expericence
+                  Experience
                 </Link>
                 <Link
                   href="#skills"

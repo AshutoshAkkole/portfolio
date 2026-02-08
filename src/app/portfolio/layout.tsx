@@ -7,10 +7,11 @@ import { useState } from "react";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
 
-    const darkModeControls = useState(false);
+  const darkModeControls = useState(false);
+  const [darkMode] = darkModeControls;
 
   return (
-    <div className={darkModeControls[0] ? "dark" : ""}>
+    <div data-theme={darkMode ? "dark" : "light"}>
       <NavBar darkModeControls={darkModeControls} />
       <SpaceContainer />
       <SpaceContainer />
