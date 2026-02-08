@@ -1,0 +1,4 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="128" cy="128" r="128" fill="#13C2C2"></circle>
+  <text x="50%" y="55%" text-anchor="middle" dy=".1em" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#fff">cy</text>
+</svg>
