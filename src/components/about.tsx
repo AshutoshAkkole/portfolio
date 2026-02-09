@@ -60,7 +60,7 @@ export default function About() {
               height={24}
             />
           </Link>
-          <Link href="https://github.com/ashutosh-akkole" target="_blank">
+          <Link href="https://github.com/AshutoshAkkole" target="_blank">
             <Image
               className="dark:invert hover:scale-150 transition-transform duration-300"
               src="/github.svg"
@@ -69,7 +69,7 @@ export default function About() {
               height={24}
             />
           </Link>
-          <Link href="https://www.x.com/ashutosh_akkole" target="_blank">
+          <Link href="https://www.x.com/Ashu1292574" target="_blank">
             <Image
               className="dark:invert hover:scale-150 transition-transform duration-300"
               src="/x.svg"
