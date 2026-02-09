@@ -49,7 +49,7 @@ export default function About() {
         </div>
         <div className="flex space-x-4 items-center">
           <Link
-            href="https://www.linkedin.com/in/ashutosh-akkole-864143235/"
+            href="https://www.linkedin.com/in/ashutosh-akkole/"
             target="_blank"
           >
             <Image
